@@ -14,13 +14,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/nightscout/cgm-remote-monitor.git"
+    "url": "git+https://github.com/nightscout/cgm-remote-monitor.git"
   },
   "contributors": [
-    {
-      "name": "Nightscout Team",
-      "url": "https://github.com/nightscout/cgm-remote-monitor/graphs/contributors"
-    }
+    "Nightscout Team (https://github.com/nightscout/cgm-remote-monitor/graphs/contributors)"
   ],
   "bugs": {
     "url": "https://github.com/nightscout/cgm-remote-monitor/issues"
@@ -158,5 +155,13 @@
     "webpack-dev-middleware": "^4.3.0",
     "webpack-hot-middleware": "^2.25.2",
     "xml2js": "^0.4.23"
+  },
+  "bin": {
+    "nightscout": "bin/generateCacheBuster.js"
+  },
+  "directories": {
+    "doc": "docs",
+    "lib": "lib",
+    "test": "tests"
   }
 }
